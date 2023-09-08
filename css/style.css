@@ -176,11 +176,12 @@ h3 {
 }
 
 .nav-link:hover,
-.contact-link:hover {
+.contact-link:hover  {
     color: var(--ocean, #404BBF);
 }
 
-.nav-link:hover::before,
+
+.nav-link:hover:before, 
 .contact-link:hover::before {
     content: '';
     position: absolute;
@@ -190,6 +191,7 @@ h3 {
     border-radius: 2px;
     background-color: var(--ocean, #404BBF);
 }
+
 
 /* hero */
 .hero {
